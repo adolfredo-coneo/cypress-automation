@@ -1,0 +1,15 @@
+//Cypress
+npm install --save-dev cypress
+
+node_modules/.bin/cypress open
+node_modules/.bin/cypress run
+node_modules/.bin/cypress run --spec "cypress/integrations/examples/Test1.spec.js"
+
+//git
+echo "# cypress-automation" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/adolfredo-coneo/cypress-automation.git
+git push -u origin main
